@@ -1,0 +1,16 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "dependencies": {
+    "jest": "^27.0.4"
+  },
+  "jest": {
+    "transform": {}
+  }
+}
